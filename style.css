@@ -19,7 +19,7 @@ header {
     text-align: center;
     padding: 1em;
 }
-.custom{
+.custom{ /*h1 styling*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
     color:rgb(79, 107, 143);
@@ -56,7 +56,7 @@ h2{
     }
 }
 
-.form-instruction{
+.form-instruction{   /*h3 styling*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     color:rgb(79, 143, 99);
