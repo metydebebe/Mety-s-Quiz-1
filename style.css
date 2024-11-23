@@ -12,13 +12,55 @@ body {
         background-color: #c3b091;
     }
 }
+
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
+.custom{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color:rgb(79, 107, 143);
+}
 
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color:rgb(132, 79, 143);
+    animation: slide 5s ease-in-out 0.5s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-color: aquamarine;
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: lemonchiffon;
+        transform: translateX(-25%);
+    }
+    50%{
+        background-color: lightcoral;
+        transform: translateX(-50%);
+    }
+    75%{
+        background-color: lightpink;
+        transform: translateX(-75%);
+    }
+    100%{
+        background-color: aquamarine;
+        transform: translateX(-100%);
+    }
+}
+
+.form-instruction{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color:rgb(79, 143, 99);
+}
 nav {
     max-width: 100%;
     height: auto;
@@ -35,39 +77,6 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
-}
-
-h2 {
-    text-decoration: underline;
-    text-align: center;
-    animation: slide 5s ease-in-out 0.5s infinite;
-}
-
-@keyframes slide {
-    0% {
-        background-color: aquamarine;
-        transform: translateX(0%);
-    }
-
-    25% {
-        background-color: lemonchiffon;
-        transform: translateX(-25%);
-    }
-
-    50% {
-        background-color: lightcoral;
-        transform: translateX(-50%);
-    }
-
-    75% {
-        background-color: lightskyblue;
-        transform: translateX(-75%);
-    }
-
-    100% {
-        background-color: aquamarine;
-        transform: translateX(-100%);
-    }
 }
 
 .city-gallery {
@@ -96,10 +105,10 @@ h2 {
 }
 
 table {
-    width: 80%;
-    max-width: 600px;
+    width: 50%;
+    height: auto;
     margin: 20px auto;
-    border: 2px solid lightpink;
+    border: 2px solid rgb(244, 114, 134);
     border-radius: 2%;
     padding: 1px;
     border-collapse: collapse;
@@ -107,20 +116,20 @@ table {
 
 th {
     background-color: #f9f9f9;
-    border: 1px solid lightpink;
+    border: 1px solid rgb(244, 114, 134);
     border-radius: 2%;
     padding: 5px;
 }
 
 td {
-    border: 1px solid lightpink;
+    border: 1px solid rgb(244, 114, 134);
     border-radius: 2%;
     padding: 5px;
 }
 
 form {
     background-color: azure;
-    border: 2px solid lightpink;
+    border: 3px solid lightpink;
     border-radius: 5%;
     padding: 20px;
     margin: 20px;
